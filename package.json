@@ -1,0 +1,25 @@
+{
+  "name": "primer_entrega",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./app.js",
+    "start-text": "npm start",
+    "dev": "nodemon ./app.js",
+    "stop-linux": "killall -9 node",
+    "stop-windows": "taskkill /F /IM node.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "eslint": "8.57.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "moment": "^2.30.1"
+  },
+  "description": ""
+}
